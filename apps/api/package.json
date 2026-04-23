@@ -1,0 +1,27 @@
+{
+  "name": "@focus/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@focus/config": "workspace:*",
+    "@focus/types": "workspace:*",
+    "@hono/node-server": "^1.11.0",
+    "hono": "^4.4.0"
+  },
+  "devDependencies": {
+    "@focus/eslint-config": "workspace:*",
+    "@focus/tsconfig": "workspace:*",
+    "@types/node": "^20.0.0",
+    "eslint": "^8.57.0",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.0"
+  }
+}
