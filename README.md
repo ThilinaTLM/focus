@@ -61,13 +61,13 @@ This starts both apps together:
 
 ## Scripts
 
-| Script          | Description                              |
-| --------------- | ---------------------------------------- |
-| `pnpm dev`      | Start web + API in development mode      |
-| `pnpm build`    | Build all apps and packages              |
-| `pnpm lint`     | Lint all apps and packages               |
-| `pnpm typecheck`| Run TypeScript checks across the monorepo|
-| `pnpm format`   | Format code with Prettier                |
+| Script           | Description                               |
+| ---------------- | ----------------------------------------- |
+| `pnpm dev`       | Start web + API in development mode       |
+| `pnpm build`     | Build all apps and packages               |
+| `pnpm lint`      | Lint all apps and packages                |
+| `pnpm typecheck` | Run TypeScript checks across the monorepo |
+| `pnpm format`    | Format code with Prettier                 |
 
 ## Roadmap
 
